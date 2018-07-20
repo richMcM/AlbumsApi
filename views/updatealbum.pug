@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    div(class = "div1")
+        h1= headTitle
+
+        form(role='form', action='/update/' + album._id, method='post')
+            p Title: &nbsp &nbsp
+                input(id= "title"  type="text" name="title" value= album.title)
+            p Artist: &nbsp &nbsp
+                input(id="artist" type="text" name="artist" value= album.artist)
+            p Genre: &nbsp &nbsp
+                input(id="genre" type="text" name="genre" value= album.genre)
+            p Price: &nbsp &nbsp
+                input(id="price" type="text" name="price" value= album.price)
+            input(class='button2' onclick="return confirm('Confirm album update?')" type="submit")
+

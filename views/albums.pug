@@ -1,0 +1,39 @@
+extends layout
+
+
+block content
+    div(class = "div1")
+        h1= title
+
+
+
+        table(class="pure-table pure-table-bordered" id="table")
+            thead
+                tr: th #
+                    th Albums
+                    th Artist
+                    th Genre
+                    th Price
+                    th
+
+            tbody
+
+                tr
+                    td <br>
+                    td <br>
+                    td <br>
+                    td <br>
+                    td <br>
+                    td <br>
+
+                each album in albums
+                    tr
+                        td #{count++}
+                        td #{album.title}
+                        td #{album.artist}
+                        td #{album.genre}
+                        td #{album.price}
+                        td
+                            a(href="/viewalbum/" + album._id style="cursor:pointer") View album
+
+        a(class ="button2" href="/addalbum") Add Album

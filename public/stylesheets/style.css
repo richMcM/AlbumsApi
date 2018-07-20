@@ -1,0 +1,91 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  font-size: 16px;
+
+}
+
+.div1{
+  position:absolute;
+  left:0%;
+  top:0%;
+  right:0%;
+  width:60%;
+  height:200px;
+  margin:0px auto;
+  padding-top: 25px;
+  font-size: 16px;
+
+}
+
+h1{
+  text-decoration: underline;
+  text-decoration-color: #0099CC;
+
+}
+
+.button {
+  position:absolute;
+  background-color: #4CAF50; /* Green */
+  padding-top: 40px;
+  border: 2px solid #0099CC;
+  color: #0099CC;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 6px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.button2 {
+  position:absolute;
+  background-color: #4CAF50; /* Green */
+  padding-top: 40px;
+  border: 2px solid #0099CC;
+  color: #0099CC;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 6px;
+  float: left;
+  margin-top: 10px;
+}
+
+.delete_link {
+  position: absolute;
+  background-color: #4CAF50; /* Green */
+  padding-top: 40px;
+  border: 2px solid #0099CC;
+  color: #0099CC;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 6px;
+  float: left;
+  margin-top: 10px;
+}
+
+#table {
+
+}
+
+
+
