@@ -31,12 +31,15 @@ h1{
 
 }
 
+<<<<<<< HEAD
 b{
   text-decoration: underline;
   text-decoration-color: #0099CC;
 
 }
 
+=======
+>>>>>>> b043640b4937865dfdc3cad54a27123dcf857ccc
 .button {
   position:absolute;
   background-color: #4CAF50; /* Green */
@@ -92,3 +95,9 @@ b{
 #table {
 
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> b043640b4937865dfdc3cad54a27123dcf857ccc
